@@ -32,6 +32,7 @@
     "build": "yarn run build-esm && yarn run build-other",
     "prepublishOnly": "yarn run build"
   },
+  "prepare": "npm run build",
   "files": [
     "esm",
     "commonjs",
